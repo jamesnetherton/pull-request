@@ -76,6 +76,7 @@ echo "$COMMAND"
 
 PR_URL=$(sh -c "$COMMAND")
 if [[ "$?" != "0" ]]; then
+  echo "Testing"
   exit 1
 fi
 
